@@ -1,0 +1,12 @@
+/* Pseudo-clases */
+p:first-child {
+    color: orange;
+  }
+  
+  p:last-child {
+    color: purple;
+  }
+  
+  p:nth-child(2n) {
+    color: red;
+  }
