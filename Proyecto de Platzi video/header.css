@@ -7,11 +7,12 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: #AB88FF;
+    background-color: #99E0EB;
     font-family: 'Mulish', sans-serif;
+
 }
 .header{
-    background-color: #AB88FF;
+    background-color: #99E0EB;
     width: 10%;
     display: flex;
     /*justify-content: space-between; */
@@ -98,7 +99,7 @@ body{
 
 }
 .input{
-    background-color: #AB88FF;
+    background-color: #99E0EB;
     border: solid white 1px;
     border-radius: 2rem;
     width: 80rem;
@@ -108,4 +109,77 @@ body{
     font-size: 1.5rem;
     outline: none;
  
+}
+::placeholder{
+    color: white;
+}
+
+.carousel {
+    width: 100%;
+    overflow: none;
+    padding: 3rem;
+    position: relative;
+    color: white;
+    
+}
+.carousel__container {
+    white-space: nowrap;
+    margin: 7rem 0rem;
+    padding-bottom: 1rem ;
+}
+.carousel__item{
+    background-color: beige;
+    width: 22rem;
+    height: 30rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-right: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    transition: 500ms all;
+    transform-origin:center left;
+   position: relative;
+}
+.carousel__item:hover ~ .carousel__item{
+    transform: translate3d(5rem,0rem,0rem);
+
+}
+.carousel__container:hover .carousel__item{
+    opacity: 0.2;
+}
+.carousel__container:hover .carousel__item:hover{
+    transform: scale(1.2);
+    opacity: 5;
+   
+}
+.carousel__img{
+    object-fit: cover;
+    width: 22rem;
+    height: 30rem;
+
+}
+.carousel__details{
+    background: linear-gradient( to top, rgba(0,0,0,0.4)0%,rgba(0,0,0,0) 100%);
+    font-size: 1rem;
+    opacity: 0;
+    transition: 450ms opacity;
+    padding: 1rem;
+    position: absolute;
+    top:19rem ;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+
+.carousel__details:hover{
+    background: linear-gradient( to top, rgba(0,0,0,1)0%,rgba(0,0,0,0) 100%);
+    opacity: 1;
+}
+.play{
+    width: 3rem;
+
+}
+.plus{
+    width: 3rem;
 }
