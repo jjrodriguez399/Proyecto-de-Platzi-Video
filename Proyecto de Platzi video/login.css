@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+html{
+    font-size: 62.5%;
+}
+/*  De esta manera lo ralizo la profe,aprendi muchas cosas nuevas  */
+/* body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+  }
+  .header {
+    align-items: center;
+    background-color: #21c08b;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+  }
+  .header__img {
+    margin-left: 30px;
+    width: 200px;
+  }
+  .login{
+      background: linear-gradient(#21c08b, #ab88ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0rem 3rem;
+      min-height: 100vh;
+      
+    
+  }
+  .login__container{
+      background-color: rgba(255, 255, 255, 0.1);
+      border: solid 1px white;
+      border-radius: 4rem;
+      color: white;
+      padding: 6rem ;
+      min-height: 70rem;
+      width: 35rem;
+      display: flex;
+      justify-content: space-around;
+
+      flex-direction: column;
+
+  }
+  .login__container--form{
+      display: flex;
+      flex-direction: column;
+
+  }
+  .login__container--form label{
+      font-size: 1.1rem;
+  }
+  .login__container--remember-me{
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1rem;
+  }
+  .login__container--remember-me a{
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      margin-top:0.6rem ;
+  }
+  .login__container--remember-me a:hover{
+      text-decoration: underline;
+  }
+  .login__container--social-media > div{
+      display: flex;
+      align-items: center;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    
+  }
+  .login__container--social-media > div >img{
+      width: 2.5rem;
+      margin-right: 1rem;
+
+  }
+  .login__container--register{
+      font-size: 1.1rem;
+
+  }
+  .login__container--register a{
+      font-size: 1.6rem;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+
+  }
+  .login__container--register a:hover{
+      text-decoration: underline;
+  }
+  .input{
+      margin-top: 3rem;
+      background-color: transparent;
+      border-bottom: 1px white solid;
+      height: 4rem;
+      outline: none;
+      
+  }
+  ::placeholder{
+      color: white;
+  }
+  .button{
+      
+      background-color: rgb(157, 233, 204);
+      border-radius: 5rem;
+      margin-top: 2rem;
+      height: 4rem;
+      width: 23rem;
+      color: white;
+      cursor: pointer;
+      letter-spacing: 1px;
+      margin-bottom: 1rem;
+      margin-top: 3rem;
+  }
+  .footer{
+      width: 100%;
+      background-color: #ab88ff;
+      height: 10rem;
+      display: flex;
+      align-items: center;
+  }
+  .footer >a {
+     color: white;
+     cursor: pointer;
+     font-size: 1.2rem;
+     padding-left: 3rem;
+     text-decoration: none;
+     
+  }
+  .footer >a:hover{
+      text-decoration: underline;
+  }
+*/
+  
+
+
+
+  
+    /*Con mis conocimientos lo realize de esta manera lo realize, mismo resultado,diferente codigo. */
+  body{
+    background-color: #33C1B1;
+    width: 100%;
+}
+
+.header{
+    background-color: #33C1B1;
+    width: 10%;
+    display: flex;
+}
+
+.header_img{
+    width: 20rem;
+    height: 9rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+   position: relative;
+   right: 3.5rem; 
+}
+.login{
+    position: absolute;
+    left: 4rem;
+    top: 6rem;
+}
+.title{
+    color: white;
+    font-size: 2.2rem;
+
+}
+
+.main{
+    border: white solid;
+    color: white;
+    border-radius: 4rem;
+    width: 32rem;
+    height: 60rem;
+    position: relative;
+    left: 31rem;
+}
+
+.main_input{
+    background-color: #33C1B1;
+    display: block;
+    border-bottom: solid 1px white;
+    width: 22rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    outline: none;
+}
+.main_submit{
+    background-color: #7be4cf;
+    color: white;
+    position: absolute;
+    top: 13rem;
+    left: 0rem;
+    width: 22rem;
+    height: 4rem;
+    border-radius: 2rem;
+    
+}
+.main_submit a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+}
+::placeholder{
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 3rem;
+}
+.pcenter{
+    position: absolute;
+    top: 17rem;
+    left: -1.5rem;
+}
+.pcenter_p{
+    display: inline-block;
+    margin: 2.1rem;
+    
+
+}
+.pcenter a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    width: 10rem;
+    top: 2.8rem;
+    left: 12rem;
+}
+.sesion{
+    position: absolute;
+    top: 25rem;
+    left: 5rem;
+    font-size: 1.2rem;
+}
+.sesion a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.img_google{
+ position: absolute;
+ width: 1.6rem;
+ right: 13rem;
+ top: 1.2rem;
+}
+.img_twitter{
+    position: absolute;
+    width: 1.8rem;
+    right: 13rem;
+    top: 3.7rem;
+}
+.registrate{
+    position: absolute;
+    top: 37rem;
+    font-size: 1.2rem;
+}
+.registrate a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5rem;
+}
+.footer{
+    position: absolute;
+    bottom: 0.5rem;
+}
+
+.footer p {
+    display: inline-block;
+    padding: 1rem;
+    
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+} 
